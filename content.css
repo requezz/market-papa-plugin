@@ -1,0 +1,42 @@
+.product-info-container {
+    width: 295px;
+    display: flex;
+    align-items: center;
+    color: #6B7280;
+    background-color: #FAFAFA;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    border-radius: 5px;
+    margin: 0 0 16px;
+    padding: 16px;
+}
+
+.price-up-to-spp {
+    display: flex;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.sales-count {
+    color: #000;
+    margin-left: 5px;
+}
+
+.basic-count {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.spp-text,
+.to-spp-text {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.25rem;
+}
+
+.containerWarehouses {
+    padding: 20px 24px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    margin-bottom: 24px;
+}
