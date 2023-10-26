@@ -1,3 +1,4 @@
+/* Стили для контейнера с информацией о продукте */
 .product-info-container {
     width: 295px;
     display: flex;
@@ -11,22 +12,26 @@
     padding: 16px;
 }
 
+/* Стили для контейнера "До СПП" */
 .price-up-to-spp {
     display: flex;
     margin-left: 12px;
     align-items: center;
 }
 
+/* Стили для процента скидки */
 .sales-count {
     color: #000;
     margin-left: 5px;
 }
 
+/* Стили для базовой цены в рублях */
 .basic-count {
     margin-left: 5px;
     font-size: 20px;
 }
 
+/* Общие стили для текста "СПП" и "До СПП" */
 .spp-text,
 .to-spp-text {
     margin-top: 5px;
@@ -34,9 +39,60 @@
     line-height: 1.25rem;
 }
 
+/* Стили для контейнера городов продаж */
 .containerWarehouses {
     padding: 20px 24px;
     border-radius: 16px;
     box-shadow: 0 0 20px rgba(0,0,0,.1);
     margin-bottom: 24px;
+}
+
+/* Общие стили для элементов городов продаж */
+.commonWarehouses {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Стили для заголовка "Раскладка по складам" */
+.warehouses {
+    color: #555;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Стили для названия склада */
+.warehouse {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+/* Стили для общего контейнера складов */
+.all-warehouses {
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Общие стили для времени и количества */
+.common {
+    margin-top: 10px;
+}
+
+/* Стили для времени доставки */
+.times {
+    margin-right: 35px;
+    font-size: 14px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Стили для количества */
+.pieces {
+    margin-right: 35px;
+    font-size: 14px;
+    color: #555;
 }
